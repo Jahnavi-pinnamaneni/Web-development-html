@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<head>
+		<title>My html page</title>
+	</head>
+	<!-- This is the first comment I'm using in this page-->
+	<body>
+		<div>
+			<div>
+				<h1> Hi this is <span>Jahnavi Pinnamaneni</span>..!Welcome! </h1>
+			</div>
+			<div>
+				<p>This is a paragraph tag.</p>
+				<br>
+			</div>
+		</div>
+		<ul style="list-style-type: none;">
+			<li>Pens</li>
+			<li>
+				<ol style="list-style-type: 1;">
+					<li>Cello</li>
+				</ol>
+			</li>
+		</ul>
+
+		<a href="Subpages/page2.html" target="_blank">link</a>
+
+		<form>
+			<div>
+				<label for= "Type">Type</label>
+				<select>
+					<option>Gel pen</option>
+					<option>Ball pen</option>
+					<option>Ink pen</option>
+				</select>
+			</div>
+			<div>
+				<label for="red">Red</label>
+				<input name="color" type="radio">
+			</div>
+			<div>
+				<label for="blue">Blue</label>
+				<input name="color" type="radio">
+			</div>
+			<div>
+				<label for="black">Black</label>
+				<input name="color" type="radio">
+			</div>
+			<div>
+				<label for="Green">Green</label>
+				<input name="color" type="radio">
+			</div>
+			<button>Submit</button>
+		</form>
+		<img src="https://5.imimg.com/data5/RO/UP/MY-31666046/ball-pen-gripper-500x500.jpg"/>
+
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>USN</th>
+			</tr>
+			<tr>
+				<td>Jahnavi</td>
+				<td>1pe16ec096</td>
+			</tr>
+		</table>
+	</body>
+</html>
